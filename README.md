@@ -132,52 +132,61 @@
     - BATCH SIZE = 4
 - test img
 ![](./img/test_input.jpg)
+
 - unet
     - test dataset fps = 172.9
     - Mean IoU = 0.776
     - real fps = 50.9
+
 loss             |  IoU
-| -------- | ----------- |
-| ![](./img/unet_loss.png)  |  ![](./img/unet_IoU.png) |
-| val_input             |  vaLmask |
-| ![](./img/input.png)  |  ![](./img/mask.png) |
-| train validation             |  
-| ![](./img/unet_train_check.gif) |
-| test output             |  test blend |
-| ![](./img/unet_test_mask.jpg)  |  ![](./img/unet_test_blend.jpg) |
+:-------------------------:|:-------------------------:
+![](./img/unet_loss.png)  |  ![](./img/unet_IoU.png)
+val_input             |  vaLmask
+![](./img/input.png)  |  ![](./img/mask.png)
+train validation             |  
+![](./img/unet_train_check.gif)
+test output             |  test blend
+:-------------------------:|:-------------------------:
+![](./img/unet_test_mask.jpg)  |  ![](./img/unet_test_blend.jpg)
 
 - pspunet
     - test dataset fps = 174.08
     - Mean IoU = 0.970
     - real fps = 35.9
+
 loss             |  IoU
-| -------- | ----------- |
-| ![](./img/pspunet_loss.png)  |  ![](./img/pspunet_IoU.png) |
-| test output             |  test blend |
-| ![](./img/pspunet_test_mask.jpg)  |  ![](./img/pspunet_test_blend.jpg) |
+:-------------------------:|:-------------------------:
+![](./img/pspunet_loss.png)  |  ![](./img/pspunet_IoU.png)
+test output             |  test blend
+![](./img/pspunet_test_mask.jpg)  |  ![](./img/pspunet_test_blend.jpg)
 
 - pspunet_vgg16
     - test dataset fps = 166.9
     - Mean IoU = 0.899
     - real fps = 34.11
+
 loss             |  IoU
 :-------------------------:|:-------------------------:
 ![](./img/pspunet_vgg16_loss.png)  |  ![](./img/pspunet_vgg16_IoU.png)
 test output             |  test blend
 ![](./img/pspunet_vgg16_test_mask.jpg)  |  ![](./img/pspunet_vgg16_test_blend.jpg)
+
 - deeplab_v3
     - test dataset fps = 164.33
     - Mean IoU = 0.6421
     - real fps = 14.76
+
 loss             |  IoU
 :-------------------------:|:-------------------------:
 ![](./img/deeplab_v3_loss.png)  |  ![](./img/deeplab_v3_IoU.png)
 test output             |  test blend
 ![](./img/deeplab_v3_mask.jpg)  |  ![](./img/deeplab_v3_test_blend.jpg)
+
 - fcn
     - test dataset fps = 117.09
     - Mean IoU = 0.7842
     - real fps = 51.88
+
 loss             |  IoU
 :-------------------------:|:-------------------------:
 ![](./img/fcn_loss.png)  |  ![](./img/fcn_IoU.png)
