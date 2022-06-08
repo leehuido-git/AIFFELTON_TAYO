@@ -1,4 +1,4 @@
-# AIFFEL Hackerton Tayo Team
+# AIFFELTON Tayo Team
 자율주행로봇을 만들기 위해.  
 
 ## 목차
