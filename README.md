@@ -137,24 +137,25 @@
     - Mean IoU = 0.776
     - real fps = 50.9
 loss             |  IoU
-:-------------------------:|:-------------------------:
-![](./img/unet_loss.png)  |  ![](./img/unet_IoU.png)
-val_input             |  vaLmask
-![](./img/input.png)  |  ![](./img/mask.png)
-train validation             |  
-![](./img/unet_train_check.gif)
-test output             |  test blend
-:-------------------------:|:-------------------------:
-![](./img/unet_test_mask.jpg)  |  ![](./img/unet_test_blend.jpg)
+| -------- | ----------- |
+| ![](./img/unet_loss.png)  |  ![](./img/unet_IoU.png) |
+| val_input             |  vaLmask |
+| ![](./img/input.png)  |  ![](./img/mask.png) |
+| train validation             |  
+| ![](./img/unet_train_check.gif) |
+| test output             |  test blend |
+| ![](./img/unet_test_mask.jpg)  |  ![](./img/unet_test_blend.jpg) |
+
 - pspunet
     - test dataset fps = 174.08
     - Mean IoU = 0.970
     - real fps = 35.9
 loss             |  IoU
-:-------------------------:|:-------------------------:
-![](./img/pspunet_loss.png)  |  ![](./img/pspunet_IoU.png)
-test output             |  test blend
-![](./img/pspunet_test_mask.jpg)  |  ![](./img/pspunet_test_blend.jpg)
+| -------- | ----------- |
+| ![](./img/pspunet_loss.png)  |  ![](./img/pspunet_IoU.png) |
+| test output             |  test blend |
+| ![](./img/pspunet_test_mask.jpg)  |  ![](./img/pspunet_test_blend.jpg) |
+
 - pspunet_vgg16
     - test dataset fps = 166.9
     - Mean IoU = 0.899
