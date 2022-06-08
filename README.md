@@ -201,7 +201,7 @@ test output             |  test blend
 
 MODELING             |  REAL
 :-------------------------:|:-------------------------:
-![](./img/MODELING.jpg)  |  ![](./img/REAL.jpg)
+![](./img/MODELING.JPG)  |  ![](./img/REAL.jpg)
 
 
 ## F/W
