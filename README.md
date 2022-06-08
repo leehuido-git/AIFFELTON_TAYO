@@ -145,6 +145,7 @@ val_input             |  vaLmask
 ![](./img/input.png)  |  ![](./img/mask.png)
 train validation             |  
 ![](./img/unet_train_check.gif)
+
 test output             |  test blend
 :-------------------------:|:-------------------------:
 ![](./img/unet_test_mask.jpg)  |  ![](./img/unet_test_blend.jpg)
@@ -197,6 +198,7 @@ test output             |  test blend
 ## H/W
 - Autodesk Inventor를 통해 모델링
 - 3D 프린터, 외주를 통해 제작
+
 MODELING             |  REAL
 :-------------------------:|:-------------------------:
 ![](./img/MODELING.jpg)  |  ![](./img/REAL.jpg)
