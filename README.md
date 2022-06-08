@@ -111,7 +111,7 @@
     2. config.ini에 저장해놓은 원하는 라벨 정보 받기
     3. 원하는 라벨은 255 그 외는 0으로 처리
 
-        input             |  output
+    input             |  output
     :-------------------------:|:-------------------------:
     ![](./img/pre_processing.jpg)  |  ![](./img/pre_processing.png)
 
@@ -203,13 +203,14 @@ test output             |  test blend
 ![](./img/fcn_test_mask.jpg)  |  ![](./img/fcn_test_blend.jpg)
 
 - performance table by model 
-| model | test dataset IoU | real fps |
-| -------- | ----------- | ----------- |
-| `unet` | 0.776 | 50.9 |
-| `pspunet` | 0.970 | 35.9 |
-| `pspunet_vgg16` | 0.899 | 34.11 |
-| `deeplab_v3` | 0.6421 | 14.76 |
-| `fcn` | 0.7842 | 51.88 |
+
+    | model | test dataset IoU | real fps |
+    | -------- | ----------- | ----------- |
+    | `unet` | 0.776 | 50.9 |
+    | `pspunet` | 0.970 | 35.9 |
+    | `pspunet_vgg16` | 0.899 | 34.11 |
+    | `deeplab_v3` | 0.6421 | 14.76 |
+    | `fcn` | 0.7842 | 51.88 |
 ----------
 
 ## H/W
@@ -294,7 +295,7 @@ MODELING             |  REAL
 - Lidar + Motor Control
     ![](./img/lidar_test_real.gif)
     ![](./img/lidar_test.gif)
-- Segmentation + Robot PATH
+- Segmentation + Robot PATH (X16)
     ![](./img/segmentation_test_real.gif)
     ![](./img/segmentation_test.gif)
 - GPS + SQL + QGIS
